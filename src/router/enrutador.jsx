@@ -1,5 +1,5 @@
 import Acerca from "../pages/acerca";
-import Contacto from "../pages/contactos";
+import Contacto from "../pages/Contacto";
 import Home from "../pages/home";
 import Login from "../pages/login";
 import Servicios from "../pages/servicios";

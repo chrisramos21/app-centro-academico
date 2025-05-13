@@ -1,0 +1,46 @@
+.acerca {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.acerca-contenido{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+.acerca-principal {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.acerca-titulo{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerca-titulo-texto{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 1px white;
+    text-align: center;
+  }
+

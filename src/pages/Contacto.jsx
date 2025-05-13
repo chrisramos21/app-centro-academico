@@ -1,14 +1,14 @@
-import './Servicios.css'
+import './Contacto.css'
 import MenuLateral from "../components/MenuLateral"
 import Contenido from "../components/Contenido"
-const Servicios = () => {
+const Contacto = () => {
     return (
-        <div className="servcios">
+        <div className="contacto">
             <MenuLateral />
-            <div className="servicios-contenido">
+            <div className="contacto-contenido">
                 <main className="contacto-principal">
                     <section className="contacto-titulo">
-                        <h2 className="contacto-titulo-texto">Servicios</h2>
+                        <h2 className="contacto-titulo-texto">Contactos</h2>
                     </section>
                     <Contenido />
                 </main>
@@ -17,4 +17,4 @@ const Servicios = () => {
     )
 }
 
-export default Servicios
+export default Contacto
