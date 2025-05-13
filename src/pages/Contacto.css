@@ -36,10 +36,12 @@
 }
 
 .contacto-titulo-texto{
-    font-size: 50px;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-size: 80px;
     font-weight: 700;
-    color: black;
+    color: #eae0c8;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 1px white;
+    text-shadow: 4px 4px 4px #e9a642;
     text-align: center;
   }
