@@ -27,12 +27,21 @@
 }
 
 .menu-lateral-logo {
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 24px;
     cursor: pointer;
     text-align: center;
     color: #eae0c8;
+    letter-spacing: 2px;
+    text-shadow: 4px 2px 1px #e9a642; 
+}
+.menu-lateral-logo-imagen {
+  width: 90%;
+  border-radius: 10px;
+  transition: ease-in-out 0.3s;
 }
 
 .menu-lateral-navegacion {

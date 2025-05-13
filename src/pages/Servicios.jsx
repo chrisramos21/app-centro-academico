@@ -1,16 +1,31 @@
 import './Servicios.css'
 import MenuLateral from "../components/MenuLateral"
-import Contenido from "../components/Contenido"
 const Servicios = () => {
     return (
         <div className="servcio">
             <MenuLateral />
-            <div className="servicio-contenido">
+            <div className="servicios-div">
                 <main className="servicio-principal">
                     <section className="servicio-titulo">
                         <h2 className="servicio-titulo-texto">Servicios</h2>
                     </section>
-                    <Contenido />
+                    <div>
+                        <h2>Cursos ofrecidos</h2>
+                        <ul>
+                            <li>Introducción a la programación</li>
+                            <li>Diseño gráfico</li>
+                            <li>Matemáticas avanzadas</li>
+                        </ul>
+
+                        <h3>Horarios disponibles</h3>
+                        <p>Tenemos clases disponibles en la mañana, tarde y noche.</p>
+
+                        <h3>Modalidad</h3>
+                        <p>Ofrecemos cursos tanto virtuales como presenciales.</p>
+
+                        <h3>Inscripciones</h3>
+                        <p>Comunícate con nosotros para inscribirte en cualquier curso.</p>
+                    </div>
                 </main>
             </div>
         </div>

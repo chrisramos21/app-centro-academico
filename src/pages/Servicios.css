@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Tagesschrift&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .servicio {
     width: 100%;
     min-height: 100vh;
@@ -44,6 +44,6 @@
     font-weight: 700;
     color: #eae0c8;
     letter-spacing: 2px;
-    text-shadow: 4px 4px 4px #e9a642;
+    text-shadow: 4px 4px 1px #e9a642;
     text-align: center;
   }

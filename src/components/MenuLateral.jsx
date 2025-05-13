@@ -23,7 +23,8 @@ const MenuLateral = () => {
 
     return (
         <aside className="menu-lateral">
-            <h1 onClick={homeRedireccion} className="menu-lateral-logo">Home</h1>
+            <h1 onClick={homeRedireccion} className="menu-lateral-logo">Academia</h1>
+            <img className="menu-lateral-logo-imagen" src="/logo.png" alt="logo" />
             <nav className="menu-lateral-navegacion">
                 <a onClick={serviciosRedireccion} className="menu-lateral-navegacion-item" href="">Servicios</a>
                 <a onClick={contactosRedireccion} className="menu-lateral-navegacion-item" href="">Contacto</a>

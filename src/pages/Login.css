@@ -43,9 +43,13 @@ body {
 }
 
 .form_details {
+  font-family: "Great Vibes", cursive;
+  font-style: normal;
   font-size: 26px;
   font-weight: 700;
-  color: #eae0c8; 
+  color: #eae0c8;
+  letter-spacing: 2px;
+  text-shadow: 4px 2px 1px #e9a642; 
 }
 
 .input {
