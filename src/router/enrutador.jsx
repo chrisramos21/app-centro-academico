@@ -26,4 +26,5 @@ export let enrutador = [
         path: '/acerca de',
         element: <Acerca/>
     }
+    
 ]

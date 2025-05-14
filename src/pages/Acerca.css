@@ -46,3 +46,40 @@
     text-align: center;
   }
 
+.acerca-principal > div > img:first-of-type {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+  border-radius: 12px;
+  border: 2px solid #eae0c8;
+}
+
+.acerca-titulo-info {
+  font-size: 26px;
+  color: #bc8f2f; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.acerca-parrafo {
+  font-size: 18px;
+  color: white;
+  margin: 6px 0;
+}
+.equipo-docente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.equipo-docente img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #eae0c8;
+}

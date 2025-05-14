@@ -9,22 +9,30 @@ const Servicios = () => {
                     <section className="servicio-titulo">
                         <h2 className="servicio-titulo-texto">Servicios</h2>
                     </section>
-                    <div>
-                        <h2>Cursos ofrecidos</h2>
-                        <ul>
-                            <li>Introducción a la programación</li>
-                            <li>Diseño gráfico</li>
-                            <li>Matemáticas avanzadas</li>
-                        </ul>
+                    <div className="servicios-cuerpo">
+                        <div className="servicios-card">
+                            <h2>Cursos ofrecidos</h2>
+                            <ul>
+                                <li>Introducción a la programación</li>
+                                <li>Diseño gráfico</li>
+                                <li>Matemáticas avanzadas</li>
+                            </ul>
+                        </div>
 
-                        <h3>Horarios disponibles</h3>
-                        <p>Tenemos clases disponibles en la mañana, tarde y noche.</p>
+                        <div className="servicios-card">
+                            <h3>Horarios disponibles</h3>
+                            <p>Tenemos clases disponibles en la mañana, tarde y noche.</p>
+                        </div>
 
-                        <h3>Modalidad</h3>
-                        <p>Ofrecemos cursos tanto virtuales como presenciales.</p>
+                        <div className="servicios-card">
+                            <h3>Modalidad</h3>
+                            <p>Ofrecemos cursos tanto virtuales como presenciales.</p>
+                        </div>
 
-                        <h3>Inscripciones</h3>
-                        <p>Comunícate con nosotros para inscribirte en cualquier curso.</p>
+                        <div className="servicios-card">
+                            <h3>Inscripciones</h3>
+                            <p>Comunícate con nosotros para inscribirte en cualquier curso.</p>
+                        </div>
                     </div>
                 </main>
             </div>
