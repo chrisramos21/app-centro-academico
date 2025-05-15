@@ -63,12 +63,6 @@ const Login = () => {
                         placeholder="Password"
                     />
                     <input
-                        onChange={(e) => setPhone(e.target.value)}
-                        type="text"
-                        className="input"
-                        placeholder="Phone number"
-                    />
-                    <input
                         onChange={(e) => setEmail(e.target.value)}
                         type="text"
                         className="input"
