@@ -5,6 +5,7 @@ const Login = () => {
     const [getUser, setUser] = useState("");
     const [getPassword, setPassword] = useState("");
     const [getName, setName] = useState("");
+    const [getPhone, setPhone] = useState("")
     const [getEmail, setEmail] = useState("");
     
     let redireccion = useNavigate()
@@ -60,6 +61,12 @@ const Login = () => {
                         type="text"
                         className="input"
                         placeholder="Password"
+                    />
+                    <input
+                        onChange={(e) => setPhone(e.target.value)}
+                        type="text"
+                        className="input"
+                        placeholder="Phone number"
                     />
                     <input
                         onChange={(e) => setEmail(e.target.value)}
